@@ -3,7 +3,7 @@ from django.template import Template, Context
 
 def principal (request):
     # abrir documento principal
-    paginaPrincipal = open("C:\\Users\\Felipe\\Desktop\\eva_01_backend\\eva_1\\eva_1\\templates\\index.html")
+    paginaPrincipal = open("..\\eva_1\\eva_1\\templates\\index.html")
     # Cargar documento en un template
     template = Template(paginaPrincipal.read())
     # cerrar documetno
